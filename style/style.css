@@ -131,17 +131,61 @@ nav a:hover {
     margin: 6px 0;
     font-size: 1rem;
 }
-.purpose {
-    margin-top: 50px;
+.card-section {
+    background: #ffffff15;
+    border: 2px solid #D5A18E;
+    border-radius: 14px;
     padding: 40px;
-    background: #DEC3BE15;
-    border-top: 3px solid #D5A18E;
+    width: 80%;
+    margin: 50px auto 60px auto;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.35);
     text-align: center;
+    backdrop-filter: blur(4px);
 }
-.purpose h2, .purpose h3 {
+.card-section h2 {
+    color: #DEC3BE;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-shadow: 0 2px 5px rgba(0,0,0,0.35);
+}
+.card-section h3 {
+    margin-top: 25px;
     color: #DEC3BE;
 }
-.purpose p {
+.card-section ul {
+    list-style: none;
+    padding: 0;
+}
+.card-section li {
     color: white;
-    margin: 8px 0;
+    font-size: 1.1rem;
+    margin: 10px 0;
+}
+footer {
+    background: linear-gradient(0deg, #3A4F41 0%, #2b3a31 100%);
+    padding: 30px 20px;
+    text-align: center;
+    margin-top: 60px;
+    color: #DEC3BE;
+    border-top: 3px solid #D5A18E;
+    box-shadow: 0 -4px 12px rgba(0,0,0,0.35);
+}
+footer p {
+    margin: 0 0 12px 0;
+    font-size: 0.95rem;
+}
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.footer-links a {
+    color: #DEC3BE;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: 0.25s ease;
+}
+.footer-links a:hover {
+    color: white;
+    text-shadow: 0 0 8px rgba(255,255,255,0.5);
 }
