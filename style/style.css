@@ -87,3 +87,61 @@ nav a:hover {
     color: #ffffff;
     text-shadow: 0 2px 5px rgba(0,0,0,0.6);
 }
+.section-title h2 {
+    text-align: center;
+    color: #DEC3BE;
+    font-size: 2.2rem;
+    margin-top: 40px;
+    text-shadow: 0 2px 5px rgba(0,0,0,0.35);
+}
+.countries-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    padding: 40px;
+}
+.country-card {
+    background: #ffffff15;
+    border: 2px solid #D5A18E;
+    border-radius: 14px;
+    padding: 20px;
+    text-align: center;
+    backdrop-filter: blur(4px);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.35);
+}
+.country-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.35);
+}
+.country-card h3 {
+    margin-top: 12px;
+    color: #DEC3BE;
+    font-size: 1.6rem;
+}
+.country-card ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 12px;
+}
+.country-card li {
+    color: white;
+    margin: 6px 0;
+    font-size: 1rem;
+}
+.purpose {
+    margin-top: 50px;
+    padding: 40px;
+    background: #DEC3BE15;
+    border-top: 3px solid #D5A18E;
+    text-align: center;
+}
+.purpose h2, .purpose h3 {
+    color: #DEC3BE;
+}
+.purpose p {
+    color: white;
+    margin: 8px 0;
+}
