@@ -48,3 +48,42 @@ nav a:hover {
     color: #3A4F41;
     transform: translateY(-2px);
 }
+.hero {
+    position: relative;
+    width: 100%;
+    padding: 40px;
+    box-sizing: border-box;
+}
+.hero-img {
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 6px solid #D5A18E;
+    box-shadow: 0 8px 18px rgba(0,0,0,0.35);
+    filter: brightness(70%);
+    display: block;
+}
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    max-width: 700px;
+    padding: 0 20px;
+}
+.hero-content h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #DEC3BE;
+    text-shadow: 0 2px 5px rgba(0,0,0,0.6);
+}
+.hero-content p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #ffffff;
+    text-shadow: 0 2px 5px rgba(0,0,0,0.6);
+}
