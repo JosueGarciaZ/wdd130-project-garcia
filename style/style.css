@@ -190,6 +190,78 @@ footer p {
     text-shadow: 0 0 8px rgba(255,255,255,0.5);
 }
 
+/* this is the section for the countries page */
+
+.nav-links {
+    display: flex;
+    gap: 45px;
+}
+
+nav a {
+    padding: 10px 22px;
+    border: 2px solid #3A4F41;
+    border-radius: 6px;
+    color: white;                     
+    background: rgba(58, 79, 65, 0.25); 
+    text-decoration: none;
+    transition: all 0.25s ease;
+    margin-right: 90;
+}
+
+.countries-information {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 40px;
+}
+
+.destination-information {
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    gap: 30px;
+    background: #ffffff15;
+    border: 2px solid #D5A18E;
+    border-radius: 14px;
+    padding: 20px;
+    backdrop-filter: blur(4px);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.35);
+}
+
+.destination-information img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.35);
+}
+
+.destination-information h3 {
+    color: #DEC3BE;
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 15px;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.destination-information ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.destination-information p {
+    color: white;
+    margin: 10px 0;
+    font-size: 1.05rem;
+}
+
+.destination-information img {
+    grid-column: 1;
+    grid-row: 1 / 3;
+}
 
 
 
